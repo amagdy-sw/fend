@@ -85,7 +85,7 @@ function isScrolledIntoView(el) {
 }
 
 // Usage.
-function setSetionActiveClass(){
+function setSectionActiveClass(){
   for(let section of sections){
     section.classList.remove("active-class");  
     document.querySelector(`#a${section.id}`).classList.remove("menu_link_active");
@@ -118,7 +118,7 @@ window.addEventListener('scroll', function(e) {
     last_known_scroll_position = window.scrollY;
     if (!ticking) {
       window.requestAnimationFrame(function() {
-        setSetionActiveClass();
+        setSectionActiveClass();
         ticking = false;
       });  
       ticking = true;
