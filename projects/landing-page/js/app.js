@@ -113,6 +113,7 @@ function setSetionActiveClass(){
 BuildNavigationMenu();
 
 // Set sections as active
+// Reference: https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event
 window.addEventListener('scroll', function(e) {
     last_known_scroll_position = window.scrollY;
     if (!ticking) {
