@@ -85,6 +85,10 @@ section {
 .menu_link_active{
     background: #333;
     color: #fff;
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .navbar__menu .menu__link:hover {

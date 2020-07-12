@@ -52,7 +52,7 @@ function BuildNavigationMenu(){
         a.id = `a${section.id}`;
         a.href=`#${section.id}`;
         if(i==0){
-          a.className ="menu__link menu_link_active";
+          a.className ="menu_link_active";
         }else{
           a.className = "menu__link";
         }
@@ -89,10 +89,12 @@ function setSetionActiveClass(){
   for(let section of sections){
     section.classList.remove("active-class");  
     document.querySelector(`#a${section.id}`).classList.remove("menu_link_active");
+    document.querySelector(`#a${section.id}`).classList.add("menu__link");
   }
   for(let section of sections){
       if(isScrolledIntoView(section)){
           section.classList.add("active-class");
+          document.querySelector(`#a${section.id}`).classList.remove("menu__link");
           document.querySelector(`#a${section.id}`).classList.add("menu_link_active");
           break;
       }
