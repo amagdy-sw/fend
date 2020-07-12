@@ -76,7 +76,7 @@ section {
 
 .navbar__menu .menu__link {
     display: block;
-    padding: 1em;
+    padding: 0.7em;
     font-weight: bold;
     text-decoration: none;
     color: #000;
@@ -86,7 +86,7 @@ section {
     background: #333;
     color: #fff;
     display: block;
-    padding: 1em;
+    padding: 0.7em;
     font-weight: bold;
     text-decoration: none;
 }
