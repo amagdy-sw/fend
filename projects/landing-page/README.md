@@ -19,4 +19,4 @@ To get started:
 > Special Thanks for Udacity, ITIDA and EgyptFwd for providing us this interesting web development track
 
 ## Copyrights
-Udacity - Ahmed Magdys
+Udacity - Ahmed Magdy
