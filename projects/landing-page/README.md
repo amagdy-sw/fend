@@ -1,13 +1,22 @@
 # Landing Page Project
 
-## Table of Contents
+## About
 
-* [Instructions](#instructions)
+This project demonstrates how to build a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.
+
+## Project URL
+
+https://github.com/amagdy-sw/fend/tree/refresh-2019/projects/landing-page
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+To get started: 
+1. git clone https://github.com/amagdy-sw/fend
+2. landing-project is under default branch: "refresh-2019" according to the following path: refresh-2019/projects/landing-page
+3. run index.html
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Special Thanks
+> Special Thanks for Udacity, ITIDA and EgyptFwd for providing us this interesting web development track
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+## Copyrights
+Udacity - Ahmed Magdys
