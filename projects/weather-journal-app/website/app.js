@@ -1,4 +1,6 @@
 /* Global Variables */
+
+//holds the temperature value we get from weather api
 let tempInKelvin = 0;
 //error flag for error handling
 let errorFlag = false;
@@ -9,6 +11,7 @@ let newDate = (d.getMonth()+1)+'.'+ d.getDate()+'.'+ d.getFullYear();
 // Personal API Key for OpenWeatherMap API
 const baseURL = 'http://api.openweathermap.org/data/2.5/weather?';
 const apikey = '&appid=25b00c590db39731c92ba851662212de';
+
 
 // Event listener to add function to existing HTML DOM element
 document.getElementById('generate').addEventListener("click", GetWebAPIData);
