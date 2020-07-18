@@ -89,5 +89,7 @@ const getData = async (url)=>{
       console.log("error", error);
       // appropriately handle the error
       document.getElementById('error').innerText = 'error in getting data from server endpoint';
+      errorFlag = true;
     }
   }
+
